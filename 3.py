@@ -1,4 +1,4 @@
-w=(input("enter the letter"))
+w=(input())
 if(w=='a' or w=='e' or w=='i'):
     print ("vowels")
 elif(w=='o' or w=='u'):
