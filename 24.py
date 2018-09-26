@@ -1,8 +1,7 @@
-s=int(input("enter the length:"))
-print (s)
-list=[]
-for i in range(0,s):
-    new=input()
-    a=list.append(new)
-list.sort()
-print(list)
+ae=[]
+n=int(input())
+for i in range(1,n+1):
+    sb=input()
+    ae.append(sb)
+ae.sort(key=len)
+print(ae)
