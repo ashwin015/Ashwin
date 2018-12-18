@@ -2,6 +2,6 @@ import math
 e,s=map(int,input().split(' '))
 n=e*s
 if math.sqrt(n)==int(math.sqrt(n)):
-    print ("Yes")
+    print ("yes")
 else:
-    print ("No")
+    print ("no")
