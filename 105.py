@@ -1,3 +1,3 @@
-n=input()
-k=input()
+n=str(input())
+k=str(input())
 print (n+k)
