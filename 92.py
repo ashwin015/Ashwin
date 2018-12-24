@@ -1,9 +1,6 @@
-N=int(input())
-n=[]
-sum=0
-for i in range(N):
-    k=input()
-    n.append(k)
-for i in n:
-    sum=sum+int(i)
+n = int(input())
+c = [int(i) for i in input().split(" ")]
+sum = 0
+for item in c:
+	sum += item
 print(sum)
