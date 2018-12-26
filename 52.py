@@ -1,3 +1,3 @@
-p=['zero','one','two','three','four','five','six','seven','eight','nine','ten']
+p=['Zero','One','Two','Three','Four','Five','Six','Seven','Eight','Nine','Ten']
 m=int(input())
 print(p[m])
