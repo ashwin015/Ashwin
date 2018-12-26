@@ -1,4 +1,3 @@
 import fractions
-p=int(input())
-n=int(input())
+p,n=map(int,input().split(' '))
 print (fractions.gcd(p,n))
