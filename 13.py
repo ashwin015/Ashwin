@@ -1,8 +1,9 @@
 s=int(input())
-for i in range(2,s):
-	if (s%i==0):
-		print('no')
-		break
-	else:
-		print('yes')
-		break
+f=0
+for i in range(2,s//2+1):
+    if(s%i==0):
+        f=f+1
+if(f<=0):
+    print('yes')
+else:
+    print('no')
