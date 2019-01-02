@@ -1,3 +1,4 @@
 a,b,c=map(int,input().split(' '))
-print(2*(a*b+b*c+c*a))
-print(a*b*c)
+g=(2*(a*b+b*c+c*a))
+p=(a*b*c)
+print(g,p)
